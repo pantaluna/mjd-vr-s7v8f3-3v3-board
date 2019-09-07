@@ -30,7 +30,7 @@ git rev-parse HEAD
 git status
 ```
 
-***NOTUSEDYET*** SOP Upload source updates to GitHub
+SOP Upload source updates to GitHub
 -----------------------------------
 ```
 DIR_REPO_NAME=mjd-vr-s7v8f3-3v3-board
@@ -42,7 +42,7 @@ git commit -m "Updated"
 git config credential.helper store
 git push --set-upstream origin master
 
-git tag --annotate v1.1 --message "Add image"
+git tag --annotate v1.2 --message "Add image and README.MD"
 git push origin --tags
 
 git describe --tags --dirt

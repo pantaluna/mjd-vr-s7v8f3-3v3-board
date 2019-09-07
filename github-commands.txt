@@ -42,7 +42,7 @@ git commit -m "Updated"
 git config credential.helper store
 git push --set-upstream origin master
 
-git tag --annotate v1.1 --message "TODO"
+git tag --annotate v1.1 --message "Add image"
 git push origin --tags
 
 git describe --tags --dirt
